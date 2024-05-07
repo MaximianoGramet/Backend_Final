@@ -8,13 +8,21 @@ import { __dirname } from "../../utils/utils.js";
 import config from "../config.js";
 import initializePassport from "../passport.config.js";
 import mongoose from "mongoose";
+import cors from "cors";
 
 const expressApp = express();
 const MONGO_URL = config.urlMongo;
+const FRONT_URL = config.urlFront;
 
 expressApp.use(addLogger);
 expressApp.use(express.json());
 expressApp.use(express.urlencoded({ extended: true }));
+expressApp.use(
+  cors({
+    origin: FRONT_URL,
+    methods: ["GET", "POST", "DELETE", "PUT"],
+  })
+);
 
 expressApp.engine(
   "hbs",
