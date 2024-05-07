@@ -23,7 +23,7 @@ expressApp.use(
     methods: ["GET", "POST", "DELETE", "PUT", "HEAD"],
     credentials: true,
     allowedHeaders:
-      "Content-Type, Authorization, X-Request-With, Accept, Origin, Access-Control-Allow-Headers",
+      "Content-Type,Access-Control-Allow-Origin, Authorization, X-Request-With, Accept, Origin, Access-Control-Allow-Headers",
     optionsSuccessStatus: 204,
   })
 );
