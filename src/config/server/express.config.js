@@ -19,7 +19,7 @@ expressApp.use(express.json());
 expressApp.use(express.urlencoded({ extended: true }));
 expressApp.use(
   cors({
-    origin: FRONT_URL,
+    //origin: FRONT_URL,
     methods: ["GET", "POST", "DELETE", "PUT", "HEAD"],
     credentials: true,
     allowedHeaders:
