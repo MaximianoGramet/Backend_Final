@@ -1,0 +1,458 @@
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:04:43"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:04:43"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:04:43"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:05:44"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:05:44"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:05:44"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:07:15"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:07:15"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:07:15"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:04"}
+{"level":"error","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:04"}
+{"level":"warning","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:04"}
+{"level":"fatal","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:31"}
+{"level":"error","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:31"}
+{"level":"warning","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:31"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:52:36"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:52:36"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:52:36"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+fatal: GET en /loggertest - at 13/3/2024 - 13:54:40
+error: GET en /loggertest - at 13/3/2024 - 13:54:40
+warning: GET en /loggertest - at 13/3/2024 - 13:54:40
+warning: Warn logger test
+error: Error logger test
+fatal: Fatal logger test
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:56:19"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:56:19"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:56:19"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:57:29"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:57:29"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:57:29"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:58:51"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:58:51"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:58:51"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:59:10"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:59:10"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:59:10"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:28:57"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:28:57"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:28:57"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:28"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:28"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:28"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:30"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:30"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:30"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:34:13"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:34:13"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:34:13"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:36:11"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:36:11"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:36:11"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:41:38"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:41:38"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:41:38"}
+{"level":"fatal","message":"GET en /js/login.js - at 22/3/2024 - 00:41:38"}
+{"level":"error","message":"GET en /js/login.js - at 22/3/2024 - 00:41:38"}
+{"level":"warning","message":"GET en /js/login.js - at 22/3/2024 - 00:41:38"}
+{"level":"fatal","message":"GET en /favicon.ico - at 22/3/2024 - 00:41:38"}
+{"level":"error","message":"GET en /favicon.ico - at 22/3/2024 - 00:41:38"}
+{"level":"warning","message":"GET en /favicon.ico - at 22/3/2024 - 00:41:38"}
+{"level":"fatal","message":"GET en /users/register - at 22/3/2024 - 00:41:58"}
+{"level":"error","message":"GET en /users/register - at 22/3/2024 - 00:41:58"}
+{"level":"warning","message":"GET en /users/register - at 22/3/2024 - 00:41:58"}
+{"level":"fatal","message":"GET en /js/register.js - at 22/3/2024 - 00:41:58"}
+{"level":"error","message":"GET en /js/register.js - at 22/3/2024 - 00:41:58"}
+{"level":"warning","message":"GET en /js/register.js - at 22/3/2024 - 00:41:58"}
+{"level":"fatal","message":"POST en /api/sessions/register - at 22/3/2024 - 00:42:32"}
+{"level":"error","message":"POST en /api/sessions/register - at 22/3/2024 - 00:42:32"}
+{"level":"warning","message":"POST en /api/sessions/register - at 22/3/2024 - 00:42:32"}
+{"level":"fatal","message":"GET en /users/login - at 22/3/2024 - 00:42:33"}
+{"level":"error","message":"GET en /users/login - at 22/3/2024 - 00:42:33"}
+{"level":"warning","message":"GET en /users/login - at 22/3/2024 - 00:42:33"}
+{"level":"fatal","message":"GET en /js/login.js - at 22/3/2024 - 00:42:33"}
+{"level":"error","message":"GET en /js/login.js - at 22/3/2024 - 00:42:33"}
+{"level":"warning","message":"GET en /js/login.js - at 22/3/2024 - 00:42:33"}
+{"level":"fatal","message":"GET en /users/password-recovery - at 22/3/2024 - 00:42:40"}
+{"level":"error","message":"GET en /users/password-recovery - at 22/3/2024 - 00:42:40"}
+{"level":"warning","message":"GET en /users/password-recovery - at 22/3/2024 - 00:42:40"}
+{"level":"fatal","message":"GET en /users/password-recovery - at 22/3/2024 - 00:43:50"}
+{"level":"error","message":"GET en /users/password-recovery - at 22/3/2024 - 00:43:50"}
+{"level":"warning","message":"GET en /users/password-recovery - at 22/3/2024 - 00:43:50"}
+{"level":"fatal","message":"GET en /users/password-recovery - at 22/3/2024 - 00:44:17"}
+{"level":"error","message":"GET en /users/password-recovery - at 22/3/2024 - 00:44:17"}
+{"level":"warning","message":"GET en /users/password-recovery - at 22/3/2024 - 00:44:17"}
+{"level":"fatal","message":"GET en /users/login - at 22/3/2024 - 00:44:22"}
+{"level":"error","message":"GET en /users/login - at 22/3/2024 - 00:44:22"}
+{"level":"warning","message":"GET en /users/login - at 22/3/2024 - 00:44:22"}
+{"level":"fatal","message":"GET en /js/login.js - at 22/3/2024 - 00:44:23"}
+{"level":"error","message":"GET en /js/login.js - at 22/3/2024 - 00:44:23"}
+{"level":"warning","message":"GET en /js/login.js - at 22/3/2024 - 00:44:23"}
+{"level":"fatal","message":"GET en /favicon.ico - at 22/3/2024 - 00:44:23"}
+{"level":"error","message":"GET en /favicon.ico - at 22/3/2024 - 00:44:23"}
+{"level":"warning","message":"GET en /favicon.ico - at 22/3/2024 - 00:44:23"}
+{"level":"fatal","message":"GET en /users/recover-password - at 22/3/2024 - 00:44:27"}
+{"level":"error","message":"GET en /users/recover-password - at 22/3/2024 - 00:44:27"}
+{"level":"warning","message":"GET en /users/recover-password - at 22/3/2024 - 00:44:27"}
+{"level":"fatal","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:44:31"}
+{"level":"error","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:44:31"}
+{"level":"warning","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:44:31"}
+{"level":"fatal","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:45:34"}
+{"level":"error","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:45:34"}
+{"level":"warning","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:45:34"}
+{"level":"fatal","message":"GET en /users/recover-password - at 22/3/2024 - 00:45:47"}
+{"level":"error","message":"GET en /users/recover-password - at 22/3/2024 - 00:45:47"}
+{"level":"warning","message":"GET en /users/recover-password - at 22/3/2024 - 00:45:47"}
+{"level":"fatal","message":"GET en /favicon.ico - at 22/3/2024 - 00:45:47"}
+{"level":"error","message":"GET en /favicon.ico - at 22/3/2024 - 00:45:47"}
+{"level":"warning","message":"GET en /favicon.ico - at 22/3/2024 - 00:45:47"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:45:50"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:45:50"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:45:50"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:46:28"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:46:28"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:46:28"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:54:30"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:54:30"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:54:30"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:55:35"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:55:35"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:55:35"}
+{"level":"fatal","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:55:54"}
+{"level":"error","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:55:54"}
+{"level":"warning","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:55:54"}
+{"level":"fatal","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:18"}
+{"level":"error","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:18"}
+{"level":"warning","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:18"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:38"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:38"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:38"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:46"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:46"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:46"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:01:43"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:01:43"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:01:43"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 01:01:52"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 01:01:52"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 01:01:52"}
+{"level":"fatal","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:04"}
+{"level":"error","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:04"}
+{"level":"warning","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:04"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:16"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:16"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:16"}
+{"level":"fatal","message":"GET en /users/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:26"}
+{"level":"error","message":"GET en /users/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:26"}
+{"level":"warning","message":"GET en /users/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:26"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:29"}
+{"level":"error","message":"POST en /api/sessions/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:29"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:29"}
+{"level":"fatal","message":"GET en /products/ - at 23/3/2024 - 00:09:29"}
+{"level":"error","message":"GET en /products/ - at 23/3/2024 - 00:09:29"}
+{"level":"warning","message":"GET en /products/ - at 23/3/2024 - 00:09:29"}
+{"level":"fatal","message":"GET en /users/login - at 23/3/2024 - 00:09:29"}
+{"level":"error","message":"GET en /users/login - at 23/3/2024 - 00:09:29"}
+{"level":"warning","message":"GET en /users/login - at 23/3/2024 - 00:09:29"}
+{"level":"fatal","message":"GET en /js/login.js - at 23/3/2024 - 00:09:30"}
+{"level":"error","message":"GET en /js/login.js - at 23/3/2024 - 00:09:30"}
+{"level":"warning","message":"GET en /js/login.js - at 23/3/2024 - 00:09:30"}
+{"level":"fatal","message":"GET en /favicon.ico - at 23/3/2024 - 00:09:30"}
+{"level":"error","message":"GET en /favicon.ico - at 23/3/2024 - 00:09:30"}
+{"level":"warning","message":"GET en /favicon.ico - at 23/3/2024 - 00:09:30"}
+{"level":"fatal","message":"POST en /api/sessions/login - at 23/3/2024 - 00:09:36"}
+{"level":"error","message":"POST en /api/sessions/login - at 23/3/2024 - 00:09:36"}
+{"level":"warning","message":"POST en /api/sessions/login - at 23/3/2024 - 00:09:36"}
+{"level":"fatal","message":"GET en /api/sessions/api/session/fail-login - at 23/3/2024 - 00:09:36"}
+{"level":"error","message":"GET en /api/sessions/api/session/fail-login - at 23/3/2024 - 00:09:36"}
+{"level":"warning","message":"GET en /api/sessions/api/session/fail-login - at 23/3/2024 - 00:09:36"}
+{"level":"fatal","message":"GET en /users/recover-password - at 23/3/2024 - 00:10:05"}
+{"level":"error","message":"GET en /users/recover-password - at 23/3/2024 - 00:10:05"}
+{"level":"warning","message":"GET en /users/recover-password - at 23/3/2024 - 00:10:05"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:10:10"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:10:10"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:10:10"}
+{"level":"fatal","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:10:24"}
+{"level":"error","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:10:24"}
+{"level":"warning","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:10:24"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:10:53"}
+{"level":"error","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:10:53"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:10:53"}
+{"level":"fatal","message":"POST en /api/sessions/login - at 23/3/2024 - 00:11:05"}
+{"level":"error","message":"POST en /api/sessions/login - at 23/3/2024 - 00:11:05"}
+{"level":"warning","message":"POST en /api/sessions/login - at 23/3/2024 - 00:11:05"}
+{"level":"fatal","message":"GET en /products/ - at 23/3/2024 - 00:11:06"}
+{"level":"error","message":"GET en /products/ - at 23/3/2024 - 00:11:06"}
+{"level":"warning","message":"GET en /products/ - at 23/3/2024 - 00:11:06"}
+{"level":"fatal","message":"GET en /main.js - at 23/3/2024 - 00:11:06"}
+{"level":"error","message":"GET en /main.js - at 23/3/2024 - 00:11:06"}
+{"level":"warning","message":"GET en /main.js - at 23/3/2024 - 00:11:06"}
+{"level":"fatal","message":"GET en /api/sessions/logout - at 23/3/2024 - 00:11:13"}
+{"level":"error","message":"GET en /api/sessions/logout - at 23/3/2024 - 00:11:13"}
+{"level":"warning","message":"GET en /api/sessions/logout - at 23/3/2024 - 00:11:13"}
+{"level":"fatal","message":"GET en /users/login - at 23/3/2024 - 00:11:13"}
+{"level":"error","message":"GET en /users/login - at 23/3/2024 - 00:11:13"}
+{"level":"warning","message":"GET en /users/login - at 23/3/2024 - 00:11:13"}
+{"level":"fatal","message":"GET en /js/login.js - at 23/3/2024 - 00:11:14"}
+{"level":"error","message":"GET en /js/login.js - at 23/3/2024 - 00:11:14"}
+{"level":"warning","message":"GET en /js/login.js - at 23/3/2024 - 00:11:14"}
+{"level":"fatal","message":"GET en /users/recover-password - at 23/3/2024 - 00:11:17"}
+{"level":"error","message":"GET en /users/recover-password - at 23/3/2024 - 00:11:17"}
+{"level":"warning","message":"GET en /users/recover-password - at 23/3/2024 - 00:11:17"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:11:20"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:11:20"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:11:20"}
+{"level":"fatal","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:11:31"}
+{"level":"error","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:11:31"}
+{"level":"warning","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:11:31"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:11:39"}
+{"level":"error","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:11:39"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:11:39"}
+{"level":"fatal","message":"GET en /reset-password - at 23/3/2024 - 00:11:50"}
+{"level":"error","message":"GET en /reset-password - at 23/3/2024 - 00:11:50"}
+{"level":"warning","message":"GET en /reset-password - at 23/3/2024 - 00:11:50"}
+{"level":"fatal","message":"GET en /users/reset-password - at 23/3/2024 - 00:12:37"}
+{"level":"error","message":"GET en /users/reset-password - at 23/3/2024 - 00:12:37"}
+{"level":"warning","message":"GET en /users/reset-password - at 23/3/2024 - 00:12:37"}
+{"level":"fatal","message":"GET en /user/reset-password - at 23/3/2024 - 00:12:44"}
+{"level":"error","message":"GET en /user/reset-password - at 23/3/2024 - 00:12:44"}
+{"level":"warning","message":"GET en /user/reset-password - at 23/3/2024 - 00:12:44"}
+{"level":"warning","message":"GET en /users/reset-password - at 23/3/2024 - 00:13:27"}
+{"level":"warning","message":"GET en /users/reset-password - at 23/3/2024 - 00:13:29"}
+{"level":"warning","message":"GET en /users/reset-password - at 23/3/2024 - 00:13:29"}
+{"level":"warning","message":"GET en /reset-password - at 23/3/2024 - 00:13:33"}
+{"level":"warning","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:13:41"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:13:52"}
+{"level":"warning","message":"GET en /users/reset-password - at 23/3/2024 - 00:13:54"}
+{"level":"warning","message":"GET en /users/reset-password - at 23/3/2024 - 00:14:45"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:14:50"}
+{"level":"warning","message":"GET en /users/recover-password - at 23/3/2024 - 00:14:51"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 23/3/2024 - 00:20:01"}
+{"level":"warning","message":"GET en /users/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:20:10"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:20:18"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/7534fd24c292026d86062fc0633db43df595af57 - at 23/3/2024 - 00:20:55"}
+{"level":"warning","message":"GET en /products/ - at 23/3/2024 - 15:59:59"}
+{"level":"warning","message":"GET en /users/login - at 23/3/2024 - 15:59:59"}
+{"level":"warning","message":"GET en /js/login.js - at 23/3/2024 - 15:59:59"}
+{"level":"warning","message":"GET en /favicon.ico - at 23/3/2024 - 15:59:59"}
+{"level":"warning","message":"POST en /api/sessions/login - at 23/3/2024 - 16:00:13"}
+{"level":"warning","message":"GET en /products/ - at 23/3/2024 - 16:00:13"}
+{"level":"warning","message":"GET en /main.js - at 23/3/2024 - 16:00:13"}
+{"level":"warning","message":"GET en /users/65fcfe290f50a45c5dce73da - at 23/3/2024 - 16:01:07"}
+{"level":"warning","message":"GET en /users/premium/65fcfe290f50a45c5dce73da - at 23/3/2024 - 16:01:25"}
+{"level":"warning","message":"GET en /users/premium/65fcfe290f50a45c5dce73da - at 23/3/2024 - 16:01:53"}
+{"level":"warning","message":"GET en /main.js - at 23/3/2024 - 16:01:53"}
+{"level":"warning","message":"GET en / - at 23/3/2024 - 16:02:21"}
+{"level":"warning","message":"GET en /js/login.js - at 23/3/2024 - 16:02:21"}
+{"level":"warning","message":"POST en /api/sessions/login - at 23/3/2024 - 16:02:28"}
+{"level":"warning","message":"GET en /products/ - at 23/3/2024 - 16:02:28"}
+{"level":"warning","message":"GET en /main.js - at 23/3/2024 - 16:02:29"}
+{"level":"warning","message":"POST en /api/sessions/login - at 23/3/2024 - 16:04:52"}
+{"level":"warning","message":"POST en /api/products - at 23/3/2024 - 16:05:49"}
+{"level":"warning","message":"POST en /api/products - at 23/3/2024 - 16:08:35"}
+{"level":"warning","message":"POST en /api/products - at 23/3/2024 - 16:09:19"}
+{"level":"warning","message":"POST en /api/products - at 23/3/2024 - 16:19:38"}
+{"level":"warning","message":"POST en /api/sessions/login - at 23/3/2024 - 16:19:47"}
+{"level":"warning","message":"POST en /api/products - at 23/3/2024 - 16:19:53"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:20:55"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:21:44"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:22:26"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:22:49"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:23:23"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:23:45"}
+{"level":"warning","message":"POST en /api/carts/65fcfe290f50a45c5dce73da/products/65ff2b5900349966cf523586 - at 23/3/2024 - 16:24:05"}
+{"level":"warning","message":"GET en /products/ - at 27/3/2024 - 11:34:31"}
+{"level":"warning","message":"GET en /users/login - at 27/3/2024 - 11:34:31"}
+{"level":"warning","message":"GET en /js/login.js - at 27/3/2024 - 11:34:32"}
+{"level":"warning","message":"GET en /favicon.ico - at 27/3/2024 - 11:34:32"}
+{"level":"warning","message":"GET en /apidocs - at 27/3/2024 - 11:34:44"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:34:44"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:34:45"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:34:45"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:34:45"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:34:45"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:34:45"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:39:04"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:39:04"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:39:04"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:39:04"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:39:04"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:39:04"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:39:14"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:39:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:39:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:39:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:39:15"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:39:15"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:44:00"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:44:01"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:44:01"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:44:01"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:44:01"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:44:01"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:44:59"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:44:59"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:44:59"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:44:59"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:44:59"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:45:00"}
+{"level":"warning","message":"GET en /api/carts/ - at 27/3/2024 - 11:45:12"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:45:48"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:45:48"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:45:48"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:45:48"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:45:48"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:45:49"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:45:54"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:45:54"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:45:54"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:45:54"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:45:54"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:45:54"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:47:07"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:47:07"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:47:07"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:47:07"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:47:07"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:47:08"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:47:24"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:47:25"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:47:25"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:47:25"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:47:25"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:47:26"}
+{"level":"warning","message":"GET en /api/carts - at 27/3/2024 - 11:47:34"}
+{"level":"warning","message":"GET en /api/carts - at 27/3/2024 - 11:47:35"}
+{"level":"warning","message":"GET en /api/carts - at 27/3/2024 - 11:47:36"}
+{"level":"warning","message":"GET en /api/carts - at 27/3/2024 - 11:47:36"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:49:54"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:49:55"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:49:55"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:49:55"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:49:55"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:49:55"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:50:04"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:50:05"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:50:05"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:50:05"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:50:05"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:50:05"}
+{"level":"warning","message":"GET en /api/carts/ - at 27/3/2024 - 11:50:13"}
+{"level":"warning","message":"POST en /api/carts/ - at 27/3/2024 - 11:50:24"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 11:57:00"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 11:57:01"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 11:57:01"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 11:57:01"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 11:57:01"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 11:57:02"}
+{"level":"warning","message":"GET en /api/carts/ - at 27/3/2024 - 11:58:27"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 12:02:40"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 12:02:40"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 12:02:40"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 12:02:40"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 12:02:40"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 12:02:41"}
+{"level":"warning","message":"GET en /apidocs/models/cart.model.js - at 27/3/2024 - 12:02:43"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 12:05:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 12:05:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 12:05:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 12:05:15"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 12:05:15"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 12:05:16"}
+{"level":"warning","message":"GET en /apidocs/Services/dtos/ticket.dto.js - at 27/3/2024 - 12:05:31"}
+{"level":"warning","message":"GET en /apidocs/models/cart.model.js - at 27/3/2024 - 12:05:40"}
+{"level":"warning","message":"GET en /apidocs/models/cart.model.js - at 27/3/2024 - 12:05:40"}
+{"level":"warning","message":"GET en /apidocs/models/cart.model.js - at 27/3/2024 - 12:05:40"}
+{"level":"warning","message":"GET en /apidocs/models/cart.model.js - at 27/3/2024 - 12:05:41"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 12:07:12"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css.map - at 27/3/2024 - 12:07:13"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js.map - at 27/3/2024 - 12:07:13"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js.map - at 27/3/2024 - 12:07:13"}
+{"level":"warning","message":"GET en /apidocs/ - at 27/3/2024 - 12:13:39"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui.css - at 27/3/2024 - 12:13:39"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-bundle.js - at 27/3/2024 - 12:13:39"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-standalone-preset.js - at 27/3/2024 - 12:13:39"}
+{"level":"warning","message":"GET en /apidocs/swagger-ui-init.js - at 27/3/2024 - 12:13:39"}
+{"level":"warning","message":"GET en /apidocs/favicon-32x32.png - at 27/3/2024 - 12:13:40"}
+{"level":"warning","message":"GET en /apidocs/models/cart.model.js - at 27/3/2024 - 12:13:41"}

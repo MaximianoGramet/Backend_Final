@@ -1,0 +1,215 @@
+tags:
+  - name: Carts
+    description: Operaciones relacionadas con los carritos de compra
+
+paths:
+  /api/carts/:
+    get:
+      summary: Obtiene la lista de Carritos
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Retorna la lista de carritos exitosamente.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "./models/cart.model.js"
+
+    post:
+      summary: Crea un nuevo Carrito
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Retorna el carrito creado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: "./models/cart.model.js"
+
+  /api/carts/{cid}:
+    get:
+      summary: Obtiene un Carrito por ID
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito a obtener
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Retorna el carrito encontrado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: "./models/cart.model.js"
+
+    put:
+      summary: Actualiza un Carrito por ID
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito a actualizar
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                products:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      quantity:
+                        type: integer
+                        description: Cantidad del producto en el carrito
+                        minimum: 1
+                      _id:
+                        type: string
+                        format: uuid
+                  required:
+                    - quantity
+  responses:
+    "200":
+      description: Retorna el carrito actualizado exitosamente.
+      content:
+        application/json:
+          schema:
+            $ref: "./models/cart.model.js"
+
+    delete:
+      summary: Elimina un Carrito por ID
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito a eliminar
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Retorna el carrito eliminado exitosamente.
+
+  /api/carts/{cid}/purchase:
+    get:
+      summary: Finaliza la compra de un Carrito
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito a comprar
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Retorna el ticket de compra generado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: "./Services/ticket.dao.js"
+
+  /api/carts/{cid}/products/{pid}:
+    delete:
+      summary: Elimina un producto de un Carrito
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito
+          schema:
+            type: string
+        - in: path
+          name: pid
+          required: true
+          description: ID del producto a eliminar
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Retorna un mensaje indicando que el producto fue eliminado exitosamente del carrito.
+
+    put:
+      summary: Actualiza la cantidad de un producto en un Carrito
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito
+          schema:
+            type: string
+        - in: path
+          name: pid
+          required: true
+          description: ID del producto a actualizar
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                quantity:
+                  type: integer
+                  description: Nueva cantidad del producto en el carrito
+      responses:
+        "200":
+          description: Retorna un mensaje indicando que la cantidad del producto en el carrito fue actualizada exitosamente.
+    post:
+      summary: Agrega un producto al Carrito
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito
+          schema:
+            type: string
+        - in: path
+          name: pid
+          required: true
+          description: ID del producto a añadir al carrito
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Retorna un mensaje indicando que el producto fue agregado exitosamente al carrito.
+
+  /api/carts/clear/{cid}:
+    delete:
+      summary: Elimina todos los productos del Carrito
+      tags:
+        - Carts
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          description: ID del carrito
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Retorna un mensaje indicando que todos los productos fueron eliminados exitosamente del carrito.

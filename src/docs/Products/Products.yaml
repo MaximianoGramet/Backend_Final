@@ -1,0 +1,143 @@
+tags:
+  - name: Products
+    description: Operaciones relacionadas con los productos
+
+paths:
+  /api/products/:
+    get:
+      summary: Obtiene la lista de Productos
+      tags:
+        - Products
+      responses:
+        '200':
+          description: Retorna la lista de productos exitosamente.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: './models/user.model.js'
+    post:
+      summary: Crea un nuevo Producto
+      tags:
+        - Products
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                code:
+                  type: string
+                price:
+                  type: number
+                stock:
+                  type: integer
+                thumbnail:
+                  type: string
+                status:
+                  type: boolean
+              required:
+                - title
+                - description
+                - code
+                - price
+                - stock
+                - thumbnail
+                - status
+      responses:
+        '200':
+          description: Retorna el producto creado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: './models/user.model.js'
+
+  /api/products/{id}:
+    get:
+      summary: Obtiene un Producto por ID
+      tags:
+        - Products
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: ID del producto a obtener
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Retorna el producto encontrado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: './models/user.model.js'
+
+    put:
+      summary: Actualiza un Producto por ID
+      tags:
+        - Products
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: ID del producto a actualizar
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                code:
+                  type: string
+                price:
+                  type: number
+                stock:
+                  type: integer
+                thumbnail:
+                  type: string
+                status:
+                  type: boolean
+              required:
+                - title
+                - description
+                - code
+                - price
+                - stock
+                - thumbnail
+                - status
+              additionalProperties: false
+      responses:
+        '200':
+          description: Retorna el producto actualizado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: './models/user.model.js'
+
+    delete:
+      summary: Elimina un Producto por ID
+      tags:
+        - Products
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: ID del producto a eliminar
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Retorna el producto eliminado exitosamente.
