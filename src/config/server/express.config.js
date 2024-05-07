@@ -19,12 +19,12 @@ expressApp.use(express.json());
 expressApp.use(express.urlencoded({ extended: true }));
 expressApp.use(
   cors({
-    //origin: FRONT_URL,
-    methods: ["GET", "POST", "DELETE", "PUT", "HEAD"],
-    credentials: true,
-    allowedHeaders:
-      "Content-Type,Access-Control-Allow-Origin, Authorization, X-Request-With, Accept, Origin, Access-Control-Allow-Headers",
-    optionsSuccessStatus: 204,
+    // origin: FRONT_URL,
+    // methods: ["GET", "POST", "DELETE", "PUT", "HEAD"],
+    // credentials: true,
+    // allowedHeaders:
+    //   "Content-Type,Access-Control-Allow-Origin, Authorization, X-Request-With, Accept, Origin, Access-Control-Allow-Headers",
+    // optionsSuccessStatus: 204,
   })
 );
 
