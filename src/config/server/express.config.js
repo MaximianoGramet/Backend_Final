@@ -9,24 +9,49 @@ import config from "../config.js";
 import initializePassport from "../passport.config.js";
 import mongoose from "mongoose";
 import cors from "cors";
+import ProductRouter from "../../routes/products.routes.js";
+import CartRouter from "../../routes/carts.routes.js";
+import ViewsRouter from "../../routes/views.routes.js";
+import UserViewsRouter from "../../routes/users.views.routes.js";
+import SessionRouter from "../../routes/session.routes.js";
+import githubLoginRouter from "../../routes/github-login.views.routes.js";
+import Mockrouter from "../../routes/mock.routes.js";
+import UsersRouter from "../../routes/users.routes.js";
+import swaggerUiExpress from "swagger-ui-express";
+import swaggerJSDoc from "swagger-jsdoc";
+
+const corsOptions = {
+  allowedHeaders: [
+    "Content-Type",
+    "Authorization",
+    "Access-Control-Allow-Methods",
+    "Access-Control-Request-Headers",
+  ],
+  credentials: true,
+  enablePreflight: true,
+};
 
 const expressApp = express();
 const MONGO_URL = config.urlMongo;
 const FRONT_URL = config.urlFront;
 
+expressApp.use(cors(corsOptions));
+expressApp.options("*", cors(corsOptions));
+
 expressApp.use(addLogger);
 expressApp.use(express.json());
 expressApp.use(express.urlencoded({ extended: true }));
-expressApp.use(
-  cors({
-    // origin: FRONT_URL,
-    methods: ["GET", "POST", "DELETE", "PUT", "HEAD"],
-    // credentials: true,
-    // allowedHeaders:
-    //   "Content-Type,Access-Control-Allow-Origin, Authorization, X-Request-With, Accept, Origin, Access-Control-Allow-Headers",
-    // optionsSuccessStatus: 204,
-  })
-);
+
+const swaggerOptions = {
+  definition: {
+    openapi: "3.0.1",
+    info: {
+      title: "documentación Coderhouse",
+      description: "API para la entrega de swagger",
+    },
+  },
+  apis: [`${__dirname}/docs/**/*.yaml`],
+};
 
 expressApp.engine(
   "hbs",
@@ -68,5 +93,20 @@ expressApp.use(
 initializePassport();
 expressApp.use(passport.initialize());
 expressApp.use(passport.session());
+
+const specs = swaggerJSDoc(swaggerOptions);
+expressApp.use("/api/products", ProductRouter);
+expressApp.use("/api/carts", CartRouter);
+expressApp.use("/", ViewsRouter);
+expressApp.use("/", Mockrouter);
+expressApp.use("/api/sessions", SessionRouter);
+expressApp.use("/users", UserViewsRouter);
+expressApp.use("/github", githubLoginRouter);
+expressApp.use("/api/users", UsersRouter);
+expressApp.use(
+  "/apidocs",
+  swaggerUiExpress.serve,
+  swaggerUiExpress.setup(specs)
+);
 
 export default expressApp;
