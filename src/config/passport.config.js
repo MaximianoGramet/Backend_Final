@@ -48,14 +48,16 @@ const initializePassport = () => {
     new localStrategy(
       { passReqToCallback: true, usernameField: "email" },
       async (req, username, password, done) => {
+        console.log("ACA");
         const { first_name, last_name, email, age } = req.body;
         try {
+          console.log("intente registrar en passport");
           const exist = await userModel.findOne({ email });
           if (exist) {
             console.log("User already exists");
             return done(null, false, { message: "User already exists" });
           }
-
+          console.log("antes de hashear");
           const hashedPassword = createHash(password);
           const user = {
             first_name,
@@ -64,7 +66,7 @@ const initializePassport = () => {
             age,
             password: hashedPassword,
           };
-
+          console.log("antes de crear");
           const result = await userModel.create(user);
           return done(null, result);
         } catch (error) {

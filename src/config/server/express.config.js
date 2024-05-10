@@ -78,6 +78,8 @@ expressApp.set("views", `${__dirname}/views`);
 
 expressApp.use(express.static(`${__dirname}/public`));
 
+initializePassport();
+
 expressApp.use(
   session({
     store: new MongoStore({
@@ -90,7 +92,7 @@ expressApp.use(
     saveUninitialized: true,
   })
 );
-initializePassport();
+
 expressApp.use(passport.initialize());
 expressApp.use(passport.session());
 

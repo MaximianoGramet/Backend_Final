@@ -6,7 +6,6 @@ import mongoose from "mongoose";
 import { __dirname } from "./utils/utils.js";
 import config from "../src/config/config.js";
 
-const SERVER_PORT = config.port;
 const MONGO_URL = config.urlMongo;
 
 httpServer;

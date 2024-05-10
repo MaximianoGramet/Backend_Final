@@ -6,6 +6,7 @@ import sendPasswordResetEmail from "../utils/nodemailer.js";
 import userModel from "../models/user.model.js";
 import { createHash } from "../utils/utils.js";
 import { CartModel } from "../models/cart.model.js";
+import { createCartController } from "../controllers/cart.controllers.js";
 
 const router = Router();
 
@@ -21,12 +22,16 @@ router.get(
   "/githubcallback",
   passport.authenticate("github", { failureRedirect: "/github/error" }),
   async (req, res) => {
+    const newCart = await CartModel.create();
+    user.cart = newCart._id;
+    await user.save();
     const user = req.user;
     req.session.user = {
+      _id: user._id,
       name: `${user.first_name} ${user.last_name}`,
       email: user.email,
       age: user.age,
-      cart: [],
+      cart: user.cart,
     };
     res.redirect("/users");
   }
@@ -35,6 +40,7 @@ router.post(
   "/register",
   passport.authenticate("register"),
   async (req, res) => {
+    console.log("dame bola");
     try {
       const user = req.user;
       const { first_name, last_name, email, age } = req.body;
@@ -45,7 +51,7 @@ router.post(
         email,
         age,
         rol: user.roll,
-        cart: [],
+        cart: user.cart,
       };
       res.json({
         status: "success",
@@ -72,24 +78,25 @@ router.post(
     const user = req.user;
     const rol = user.roll;
     req.session.user = {
+      _id: user._id,
       name: `${user.first_name} ${user.last_name}`,
       email: user.email,
       age: user.age,
       rol: rol,
-      cart: [],
+      cart: user.cart,
     };
-
-    const userCart = await CartModel.find({ user: user._id });
-    if (userCart.length > 0) {
-      req.session.user.cart = userCart.map((cart) => cart.products);
+    req.session.save();
+    if (!user.cart) {
+      return await createCartController(req, res);
     }
+
     user.last_connection = new Date();
-    await user.save();
     res.send({
       status: "success",
       payload: req.session.user,
       message: "Log successful",
     });
+    console.log(req.session.user);
   }
 );
 router.get("/logout", async (req, res) => {
@@ -112,6 +119,7 @@ router.get("/current", (req, res) => {
   if (!req.session.user) {
     return res.send({ error: "must be logged on" });
   }
+  console.log(req.session.user);
   res.send({ user: new UserDto(req.session.user) });
 });
 

@@ -2,6 +2,7 @@ import { CartService } from "../Services/services.js";
 import TicketDto from "../Services/dtos/ticket.dto.js";
 import { productService } from "../Services/services.js";
 import { ticketService } from "../Services/services.js";
+import userModel from "../models/user.model.js";
 
 export const getCartController = async (req, res) => {
   try {
@@ -45,18 +46,23 @@ export const createCartController = async (req, res) => {
   try {
     if (!req.session.user) {
       console.warn("You must be logged to create a cart");
+      res.status(401).json({
+        message: "Error,You must be logged to create a cart",
+      });
     } else {
-      const cart = await CartService.createCart(req.body);
-      const { user } = req.session;
+      const user = req.session.user;
       if (user) {
+        const cart = await CartService.createCart();
         user.cart = cart._id;
+        await userModel.findByIdAndUpdate(user._id, { cart: cart._id });
+        req.session.user.cart = { cart: cart._id };
+        res.json({
+          cart,
+          message: "Cart created",
+        });
       } else {
         console.warn("User session not found");
       }
-      res.json({
-        cart,
-        message: "Cart created",
-      });
     }
   } catch (error) {
     console.error(error);
@@ -149,13 +155,13 @@ export const setProductQuantityController = async (req, res) => {
 
 export const addProductCartController = async (req, res) => {
   const { cid, pid } = req.params;
-  const currentUser = req.session.user;
+  const currentUser = req.body.email;
   try {
     const product = await productService.getProductById(pid);
     if (!product) {
       return res.status(404).json({ message: "Product not found" });
     }
-    if (product.owner === currentUser.email) {
+    if (product.owner === currentUser) {
       return res
         .status(403)
         .json({ message: "You cannot add your own product to your cart" });
@@ -167,6 +173,7 @@ export const addProductCartController = async (req, res) => {
     });
   } catch (error) {
     res.status(400).json({ error: error.message });
+    console.log(error);
   }
 };
 
@@ -193,11 +200,12 @@ export const finishPurchase = async (req, res) => {
 
     if (total_price > 0) {
       cart.products = unstocked_products;
+      const user = await userModel.findOne({ cart: req.params.cid });
       let newCart = await CartService.updateProducts(req.params.cid, cart);
       let newTicket = await ticketService.createTicket({
         code: `${req.params.cid}_${Date.now()}`,
         amount: total_price,
-        purchaser: req.session.user.email,
+        purchaser: user.email,
       });
       return res.status(200).json(new TicketDto(newTicket));
     } else {

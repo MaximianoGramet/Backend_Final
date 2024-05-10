@@ -1,5 +1,5 @@
 import { CartModel } from "../../../models/cart.model.js";
-import {postModel} from "../../../models/product.model.js";
+import { postModel } from "../../../models/product.model.js";
 
 export class CartDao {
   async findCart() {
@@ -7,7 +7,7 @@ export class CartDao {
   }
 
   async findById(_id) {
-    return await CartModel.findById(_id);
+    return await CartModel.findById(_id).lean();
   }
 
   async createCart(cart) {
@@ -28,7 +28,9 @@ export class CartDao {
 
   async getCartProduct(id) {
     try {
-      const cart = await CartModel.findById(id).populate('products.product').lean();
+      const cart = await CartModel.findById(id)
+        .populate("products.product")
+        .lean();
 
       if (!cart) {
         return null;
@@ -45,16 +47,16 @@ export class CartDao {
     try {
       const cart = await CartModel.findById(cartId);
       if (!cart) {
-        throw new Error('Cart not found');
+        throw new Error("Cart not found");
       }
-  
+
       const product = await postModel.findById(productId);
       if (!product) {
-        throw new Error('Product not found');
+        throw new Error("Product not found");
       }
-  
+
       const productExist = cart.products.find((p) => p._id.equals(productId));
-  
+
       if (productExist) {
         productExist.quantity += 1;
       } else {
@@ -65,8 +67,8 @@ export class CartDao {
       }
 
       await cart.save();
-  
-      return 'Product added to the cart';
+
+      return "Product added to the cart";
     } catch (error) {
       throw error;
     }
@@ -75,20 +77,20 @@ export class CartDao {
   async setProductQuantity(cartId, productId, newQuantity) {
     try {
       const cart = await CartModel.findById(cartId);
-  
+
       if (!cart) {
-        throw new Error('Cart not found');
+        throw new Error("Cart not found");
       }
       const product = cart.products.find((p) => p._id.equals(productId));
-  
+
       if (!product) {
-        throw new Error('Product not found in the cart');
+        throw new Error("Product not found in the cart");
       }
-  
+
       product.quantity = newQuantity;
-  
+
       await cart.save();
-  
+
       return cart;
     } catch (error) {
       throw error;
@@ -98,20 +100,20 @@ export class CartDao {
   async deleteProductFromCart(cartId, productId) {
     try {
       const cart = await CartModel.findById(cartId);
-  
+
       if (!cart) {
-        throw new Error('Cart not found');
+        throw new Error("Cart not found");
       }
-  
+
       const initialProductCount = cart.products.length;
-  
+
       cart.products = cart.products.filter((p) => !p._id.equals(productId));
       if (cart.products.length === initialProductCount) {
-        throw new Error('Product not found in the cart');
+        throw new Error("Product not found in the cart");
       }
-  
+
       await cart.save();
-  
+
       return cart;
     } catch (error) {
       throw error;
@@ -121,43 +123,42 @@ export class CartDao {
   async setCartProducts(cartId, newProducts) {
     try {
       const cart = await CartModel.findById(cartId);
-  
+
       if (!cart) {
-        throw new Error('Cart not found');
+        throw new Error("Cart not found");
       }
-  
+
       cart.products = [];
 
-      newProducts.forEach(product => {
+      newProducts.forEach((product) => {
         cart.products.push({
           product: product.productId,
-          quantity: product.quantity
+          quantity: product.quantity,
         });
       });
-  
+
       await cart.save();
       return cart;
     } catch (error) {
       throw error;
     }
   }
-  
+
   async clearCart(cartId) {
     try {
       const cart = await CartModel.findById(cartId);
 
       if (!cart) {
-        throw new Error('Cart not found');
+        throw new Error("Cart not found");
       }
 
       cart.products = [];
- 
+
       await cart.save();
-  
+
       return cart;
     } catch (error) {
       throw error;
     }
   }
 }
-

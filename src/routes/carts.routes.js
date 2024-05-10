@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/", CartController.getCartController);
 router.get("/:cid", CartController.getCartByIdController);
-router.get("/:cid/purchase", adminApiBlock(), CartController.finishPurchase);
+router.get("/:cid/purchase", CartController.finishPurchase);
 router.post("/", CartController.createCartController);
 router.put("/:cid", adminApiBlock(), CartController.updateCartController);
 router.delete("/:cid", CartController.deleteCartController);
@@ -21,7 +21,7 @@ router.put(
 );
 router.post(
   "/:cid/products/:pid",
-  adminApiBlock(),
+
   CartController.addProductCartController
 );
 
