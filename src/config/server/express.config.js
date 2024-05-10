@@ -27,7 +27,6 @@ const corsOptions = {
     "Access-Control-Allow-Methods",
     "Access-Control-Request-Headers",
   ],
-  credentials: true,
   enablePreflight: true,
 };
 
