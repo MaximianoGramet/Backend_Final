@@ -20,7 +20,16 @@ import UsersRouter from "../../routes/users.routes.js";
 import swaggerUiExpress from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";
 
+const allowedOrigins = ["https://backfront-production.up.railway.app"];
+
 const corsOptions = {
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   methods: ["GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS", "HEAD"],
   allowedHeaders: [
     "Content-Type",
@@ -28,7 +37,7 @@ const corsOptions = {
     "Access-Control-Allow-Methods",
     "Access-Control-Request-Headers",
   ],
-  enablePreflight: true,
+  credentials: true,
 };
 
 const expressApp = express();
