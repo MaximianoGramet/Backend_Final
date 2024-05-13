@@ -21,6 +21,7 @@ import swaggerUiExpress from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";
 
 const corsOptions = {
+  methods: ["GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS", "HEAD"],
   allowedHeaders: [
     "Content-Type",
     "Authorization",
