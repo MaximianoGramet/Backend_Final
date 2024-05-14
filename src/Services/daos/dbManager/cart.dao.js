@@ -7,7 +7,7 @@ export class CartDao {
   }
 
   async findById(_id) {
-    return await CartModel.findById(_id).lean();
+    return await CartModel.findById(_id);
   }
 
   async createCart(cart) {
